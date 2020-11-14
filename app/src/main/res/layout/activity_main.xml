@@ -9,23 +9,42 @@
 
 
     <LinearLayout
-        android:layout_width="436dp"
-        android:layout_height="745dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/imageView4"
+            android:layout_width="417dp"
+            android:layout_height="265dp"
+            android:paddingTop="70sp"
+            android:paddingBottom="40sp"
+            app:srcCompat="@drawable/zamok" />
+
+        <TextView
+            android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/gratis_png_candado_de_seguridad_land_rover_defensor_candado" />
+            android:fontFamily="monospace"
+            android:text="Авторизация"
+            android:textAlignment="center"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="25sp" />
 
         <EditText
             android:id="@+id/editTextTextEmailAddress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:hint="Email"
+            android:layout_marginLeft="40sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/fieds"
+            android:padding="15sp"
+            android:textColor="@color/colorAccent"
             android:inputType="textEmailAddress" />
 
         <EditText
@@ -33,12 +52,26 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:hint="Пароль"
+            android:layout_marginBottom="20sp"
+            android:layout_marginLeft="40sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/fieds"
+            android:padding="15sp"
+            android:textColor="@color/colorAccent"
             android:inputType="textPassword" />
 
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:layout_marginLeft="120sp"
+            android:layout_marginRight="120sp"
+            android:background="@drawable/button"
+            android:fontFamily="monospace"
+            android:text="Войти"
+            android:textColor="@color/colorWhite"
+            android:textSize="26sp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

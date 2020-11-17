@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "946106590726",
+    "firebase_url": "https://alenovclickerapp.firebaseio.com",
+    "project_id": "alenovclickerapp",
+    "storage_bucket": "alenovclickerapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946106590726:android:696429aa9a1dc001398587",
+        "android_client_info": {
+          "package_name": "space.sadnov.alenov.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "946106590726-9spdvuu0uui5t1njnc6f41v233u5lhbb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "space.sadnov.alenov.com",
+            "certificate_hash": "65f1b1d0f38dfe3699395295c539f48855078665"
+          }
+        },
+        {
+          "client_id": "946106590726-5hshd7d1rkp4h4v7lgc19ikskctro4qm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB79IFd6dhv4ik6kKIOUnhRdgjN0AJN32g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "946106590726-5hshd7d1rkp4h4v7lgc19ikskctro4qm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

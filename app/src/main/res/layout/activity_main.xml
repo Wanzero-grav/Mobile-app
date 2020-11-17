@@ -13,7 +13,8 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
 
         <ImageView
             android:id="@+id/imageView4"
@@ -74,4 +75,5 @@
             android:textColor="@color/colorWhite"
             android:textSize="26sp" />
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

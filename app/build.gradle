@@ -26,8 +26,19 @@ dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
-    testImplementation 'junit:junit:4.12'
+    implementation 'com.google.firebase:firebase-core:18.0.0'
+    testImplementation 'junit:junit:4.13.1'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation platform('com.google.firebase:firebase-bom:26.1.0')
+    implementation 'com.google.firebase:firebase-analytics:18.0.0'
+
+    implementation 'com.google.firebase:firebase-auth' //аунтификация
+    implementation 'com.google.firebase:firebase-database:19.5.1' //База данных в реальном времени
+    implementation 'com.rengwuxian.materialedittext:library:2.1.4'
+    implementation 'uk.co.chrisjenx:calligraphy:2.3.0'
+    implementation 'com.google.firebase:firebase-firestore:22.0.0'
 
 }
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'

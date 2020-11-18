@@ -1,79 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimaryDark"
+    android:background="@drawable/start_page"
     tools:context=".MainActivity">
 
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp"
-        tools:ignore="MissingConstraints">
-
-        <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="417dp"
-            android:layout_height="265dp"
-            android:paddingTop="70sp"
-            android:paddingBottom="40sp"
-            app:srcCompat="@drawable/zamok" />
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="monospace"
-            android:text="Авторизация"
+            android:fontFamily="@font/suez_one"
+            android:text="@string/app_in_name"
             android:textAlignment="center"
-            android:textColor="@android:color/darker_gray"
-            android:textSize="25sp" />
-
-        <EditText
-            android:id="@+id/editTextTextEmailAddress"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Email"
-            android:layout_marginLeft="40sp"
-            android:layout_marginRight="40sp"
-            android:layout_marginTop="20sp"
-            android:background="@drawable/fieds"
-            android:padding="15sp"
-            android:textColor="@color/colorAccent"
-            android:inputType="textEmailAddress" />
-
-        <EditText
-            android:id="@+id/editTextTextPassword"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Пароль"
-            android:layout_marginBottom="20sp"
-            android:layout_marginLeft="40sp"
-            android:layout_marginRight="40sp"
-            android:layout_marginTop="20sp"
-            android:background="@drawable/fieds"
-            android:padding="15sp"
-            android:textColor="@color/colorAccent"
-            android:inputType="textPassword" />
-
-        <Button
-            android:id="@+id/button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="120sp"
-            android:layout_marginRight="120sp"
-            android:background="@drawable/button"
-            android:fontFamily="monospace"
-            android:text="Войти"
             android:textColor="@color/colorWhite"
-            android:textSize="26sp" />
+            android:textSize="35sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/app_name_after"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="15sp" />
+
     </LinearLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/text_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/text_bottom"
+        android:textColor="@color/text_bottom"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_above="@id/text_bottom"
+        android:layout_margin="15dp"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSignIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_sign_in"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/btnSignIn"
+            android:textColor="@color/colorWhite" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_register"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/btnRegister"
+            android:textColor="@color/colorWhite" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

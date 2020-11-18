@@ -4,4 +4,10 @@
     <color name="colorPrimaryDark">#353E4f</color>
     <color name="colorAccent">#000000</color>
     <color name="colorWhite">#fafafa</color>
+    <color name="text_bottom">#c9c9c9</color>
+    <color name="ripple_effect">#aa5353</color>
+    <color name="btn_sign_in">#ed7171</color>
+    <color name="btn_sign_in_stroke">#d66060</color>
+    <color name="btn_register">#e27a5d</color>
+    <color name="btn_register_stroke">#d16e53</color>
 </resources>

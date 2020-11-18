@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:color="@color/ripple_effect"
+    tools:tatgetApi="lollipop">
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/btn_register"></solid>
+            <stroke android:color="@color/btn_register_stroke" android:width="2dp"></stroke>
+            <corners android:radius="2dp"></corners>
+        </shape>
+    </item>
+
+
+
+
+
+</ripple>

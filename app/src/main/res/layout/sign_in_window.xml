@@ -48,13 +48,5 @@
             app:met_errorColor="#ddaa00"
             app:met_singleLineEllipsis="true"
             ></com.rengwuxian.materialedittext.MaterialEditText>
-
-
-
-
-
     </LinearLayout>
-
-
-
 </androidx.cardview.widget.CardView>
